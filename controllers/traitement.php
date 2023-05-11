@@ -12,22 +12,15 @@ $nom = $_POST['nom'];
 $email = $_POST['email'];
 
 
-$passwords = "monMotDePasseSecret";
+$pass = $_POST['password'];;
 
 
-$password = password_hash($passwords, PASSWORD_BCRYPT);
+$password = password_hash($pass, PASSWORD_BCRYPT);
 
 
 
 $sql = "INSERT INTO form (nom, email, password)
 VALUES ('$nom', '$email', '$password')";
-    $query = $conn->prepare($sql);
-
-
-
-
-
-
     
 
     
@@ -37,5 +30,5 @@ VALUES ('$nom', '$email', '$password')";
         echo "data inserted";
     }
     else{
-        echo "Error: " . $sql . "<br>" . $conn->error;
+        echo "Error" ;
     }

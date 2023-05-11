@@ -1,6 +1,6 @@
 <?php
 
-
+namespace Ecole;
 class Etudiant {
     public string $first_name;
 
@@ -27,9 +27,3 @@ class Etudiant {
     
     
 }
-$e1 = new Etudiant("Hamza" , "Msabri");
-
-$e2 = new Etudiant("Majdouline" , "Msabri");
-
-
-echo $e1->getFullName();
