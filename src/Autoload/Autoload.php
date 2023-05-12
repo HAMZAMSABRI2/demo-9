@@ -1,7 +1,7 @@
 <?php
 
 
-
+namespace src\Autolaoad;
 
 class Autoload {
 

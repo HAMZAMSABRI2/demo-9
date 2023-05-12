@@ -1,6 +1,6 @@
 <?php
 
-namespace Ecole;
+namespace src\Ecole;
 class Etudiant {
     public string $first_name;
 

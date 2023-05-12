@@ -1,0 +1,12 @@
+{
+    "name": "elitebook/demo-9",
+    "description": "A php demo project",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "require": {}
+}

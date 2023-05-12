@@ -1,6 +1,6 @@
 <?php
 
-namespace Formation;
+namespace src\Formation;
 class Etudiant {
 
 
